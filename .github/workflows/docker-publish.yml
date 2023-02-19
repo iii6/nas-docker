@@ -16,7 +16,7 @@ on:
 
 env:
   ## 镜像名，也是git仓库中的文件夹名
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: qbittorrent
   ## Dockerfile文件名称，在这里修改
   DOCKERFILE_NAME: Dockerfile
   DOCKERFILE_NAME2: Dockerfile.iyuu
